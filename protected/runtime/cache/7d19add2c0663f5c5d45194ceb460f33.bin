@@ -1,0 +1,195 @@
+a:2:{i:0;s:10246:"<nav class="navbar navbar-default navbar-fixed-top"><div class="container-fluid"><div class="navbar-header"><button class="navbar-toggle btn btn-default" data-toggle="collapse" data-target="#yii_booster_collapse_yw6" id="yw7" name="yt0" type="button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/backend" class="navbar-brand"><img width="38" height="38" title="Yupe!" src="/assets/4a95b953/img/logo.png" alt="Yupe!" /></a></div><div class="collapse navbar-collapse" id="yii_booster_collapse_yw6"><ul id="yw8" class="nav navbar-nav">
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class='fa fa-fw fa-user'></i>
+Users <span class="caret"></span></a><ul id="mainmenu_0" class="dropdown-menu">
+<li class="dropdown-submenu">
+<a tabindex="-1" href="/backend/user/user"><i class="fa fa-fw fa-user"></i> Users</a><ul id="submenu_user" class="dropdown-menu">
+<li class="nav-header nav-header">
+<a href="#">Users</a></li>
+<li>
+<a tabindex="-1" href="/backend/user/user"><i class="fa fa-fw fa-list-alt"></i> Manage users</a></li>
+<li>
+<a tabindex="-1" href="/backend/user/user/create"><i class="fa fa-fw fa-plus-square"></i> Create user</a></li>
+<li class="nav-header nav-header">
+<a href="#">Tokens</a></li>
+<li>
+<a tabindex="-1" href="/backend/user/tokens"><i class="fa fa-fw fa-list-alt"></i> Token list</a></li>
+<li class="divider"></li>
+<li>
+<a tabindex="-1" href="/backend/modulesettings?module=user"><i class="fa fa-fw fa-cog"></i> Module settings</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class='fa fa-fw fa-file'></i>
+Content <span class="caret"></span></a><ul id="mainmenu_1" class="dropdown-menu">
+<li class="dropdown-submenu">
+<a tabindex="-1" href="/backend/music/music"><i class="fa fa-fw fa-music"></i> Music</a><ul id="submenu_music" class="dropdown-menu">
+<li class="nav-header nav-header">
+<a href="#">Tracks</a></li>
+<li>
+<a tabindex="-1" href="/backend/music/track"><i class="fa fa-fw fa-list-alt"></i> Track list</a></li>
+<li>
+<a tabindex="-1" href="/backend/music/track/analyze"><i class="fa fa-fw fa-plus-square"></i> Detect new tracks</a></li>
+<li class="nav-header nav-header">
+<a href="#">Genres</a></li>
+<li>
+<a tabindex="-1" href="/backend/music/genre"><i class="fa fa-fw fa-list-alt"></i> List genres</a></li>
+<li>
+<a tabindex="-1" href="/backend/music/genre/create"><i class="fa fa-fw fa-plus-square"></i> Add new genre</a></li>
+<li class="divider"></li>
+<li>
+<a tabindex="-1" href="/backend/modulesettings?module=music"><i class="fa fa-fw fa-cog"></i> Module settings</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu">
+<a tabindex="-1" href="/backend/contentblock/contentBlock"><i class="fa fa-fw fa-th-large"></i> Blocks</a><ul id="submenu_contentblock" class="dropdown-menu">
+<li>
+<a tabindex="-1" href="/backend/contentblock/contentBlock"><i class="fa fa-fw fa-list-alt"></i> Blocks list</a></li>
+<li>
+<a tabindex="-1" href="/backend/contentblock/contentBlock/create"><i class="fa fa-fw fa-plus-square"></i> Add block</a></li>
+<li class="divider"></li>
+<li>
+<a tabindex="-1" href="/backend/modulesettings?module=contentblock"><i class="fa fa-fw fa-cog"></i> Module settings</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class='fa fa-fw fa-list'></i>
+Structure <span class="caret"></span></a><ul id="mainmenu_2" class="dropdown-menu">
+<li class="dropdown-submenu">
+<a tabindex="-1" href="/backend/menu/menu"><i class="fa fa-fw fa-list"></i> Menu</a><ul id="submenu_menu" class="dropdown-menu">
+<li class="nav-header nav-header">
+<a href="#">Menu</a></li>
+<li>
+<a tabindex="-1" href="/backend/menu/menu"><i class="fa fa-fw fa-list-alt"></i> Manage menu</a></li>
+<li>
+<a tabindex="-1" href="/backend/menu/menu/create"><i class="fa fa-fw fa-plus-square"></i> Create menu</a></li>
+<li class="nav-header nav-header">
+<a href="#">Menu items</a></li>
+<li>
+<a tabindex="-1" href="/backend/menu/menuitem"><i class="fa fa-fw fa-list-alt"></i> Manage menu items</a></li>
+<li>
+<a tabindex="-1" href="/backend/menu/menuitem/create"><i class="fa fa-fw fa-plus-square"></i> Create menu item</a></li>
+<li class="divider"></li>
+<li>
+<a tabindex="-1" href="/backend/modulesettings?module=menu"><i class="fa fa-fw fa-cog"></i> Module settings</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu">
+<a tabindex="-1" href="/backend/category/category"><i class="fa fa-fw fa-folder-open"></i> Categories</a><ul id="submenu_category" class="dropdown-menu">
+<li>
+<a tabindex="-1" href="/backend/category/category"><i class="fa fa-fw fa-list-alt"></i> Categories list</a></li>
+<li>
+<a tabindex="-1" href="/backend/category/category/create"><i class="fa fa-fw fa-plus-square"></i> Create category</a></li>
+<li class="divider"></li>
+<li>
+<a tabindex="-1" href="/backend/modulesettings?module=category"><i class="fa fa-fw fa-cog"></i> Module settings</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class='fa fa-fw fa-briefcase'></i>
+Services <span class="caret"></span></a><ul id="mainmenu_3" class="dropdown-menu">
+<li class="dropdown-submenu">
+<a tabindex="-1" href="/backend/mail/event"><i class="fa fa-fw fa-envelope"></i> Mail</a><ul id="submenu_mail" class="dropdown-menu">
+<li class="nav-header nav-header">
+<a href="#">Mail events</a></li>
+<li>
+<a tabindex="-1" href="/backend/mail/event"><i class="fa fa-fw fa-list-alt"></i> Messages list</a></li>
+<li>
+<a tabindex="-1" href="/backend/mail/event/create"><i class="fa fa-fw fa-plus-square"></i> Create event</a></li>
+<li class="nav-header nav-header">
+<a href="#">Mail templates</a></li>
+<li>
+<a tabindex="-1" href="/backend/mail/template"><i class="fa fa-fw fa-list-alt"></i> Templates list</a></li>
+<li>
+<a tabindex="-1" href="/backend/mail/template/create"><i class="fa fa-fw fa-plus-square"></i> Create template</a></li>
+<li class="divider"></li>
+<li>
+<a tabindex="-1" href="/backend/modulesettings?module=mail"><i class="fa fa-fw fa-cog"></i> Module settings</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class='fa fa-fw fa-cog'></i>
+Yupe! <span class="caret"></span></a><ul id="mainmenu_4" class="dropdown-menu">
+<li class="dropdown-submenu">
+<a tabindex="-1" href="/backend/settings"><i class="fa fa-fw fa-cog"></i> Yupe!</a><ul id="submenu_yupe" class="dropdown-menu">
+<li class="dropdown-submenu">
+<a class="flushAction" method="cacheAll" tabindex="-1" href="/backend/ajaxflush?method=1"><i class="fa fa-fw fa-trash-o"></i> Clean cache</a><ul id="yw9" class="dropdown-menu">
+<li>
+<a class="flushAction" method="cacheFlush" tabindex="-1" href="/backend/flushDumpSettings"><i class="fa fa-fw fa-trash-o"></i> Clean settings cache</a></li>
+<li>
+<a class="flushAction" method="cacheFlush" tabindex="-1" href="/backend/ajaxflush?method=1"><i class="fa fa-fw fa-trash-o"></i> Clean cache</a></li>
+<li>
+<a class="flushAction" method="assetsFlush" tabindex="-1" href="/backend/ajaxflush?method=2"><i class="fa fa-fw fa-trash-o"></i> Clean assets</a></li>
+<li>
+<a class="flushAction" method="cacheAssetsFlush" tabindex="-1" href="/backend/ajaxflush?method=3"><i class="fa fa-fw fa-trash-o"></i> Clean cache and assets</a></li>
+</ul>
+</li>
+<li>
+<a tabindex="-1" href="/backend/settings"><i class="fa fa-fw fa-th"></i> Modules</a></li>
+<li>
+<a tabindex="-1" href="/backend/themesettings"><i class="fa fa-fw fa-picture-o"></i> Theme settings</a></li>
+<li>
+<a tabindex="-1" href="/backend/modulesettings?module=yupe"><i class="fa fa-fw fa-wrench"></i> Site settings</a></li>
+<li>
+<a tabindex="-1" href="/backend/help"><i class="fa fa-fw fa-question-circle"></i> About Yupe!</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="navbar-right nav navbar-nav" id="yw10">
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="/backend/help"><i class='fa fa-fw fa-question-circle'></i>
+Help <span class="caret"></span></a><ul id="yw11" class="dropdown-menu">
+<li>
+<a target="_blank" tabindex="-1" href="http://yupe.ru?from=help"><i class="fa fa-fw fa-globe"></i> Official site</a></li>
+<li>
+<a target="_blank" tabindex="-1" href="http://yupe.ru/docs/index.html?from=help"><i class="fa fa-fw fa-book"></i> Official docs</a></li>
+<li>
+<a target="_blank" tabindex="-1" href="https://github.com/yupe/yupe-ext"><i class="fa fa-fw fa-th-large"></i> Additional modules</a></li>
+<li>
+<a target="_blank" tabindex="-1" href="http://yupe.ru/talk/?from=help"><i class="fa fa-fw fa-comment"></i> Forum</a></li>
+<li>
+<a target="_blank" tabindex="-1" href="http://gitter.im/yupe/yupe"><i class="fa fa-fw fa-comment"></i> Chat</a></li>
+<li>
+<a target="_blank" tabindex="-1" href="https://github.com/yupe/yupe"><i class="fa fa-fw fa-globe"></i> Community on github</a></li>
+<li>
+<a target="_blank" tabindex="-1" href="http://amylabs.ru/contact?from=help-support"><i class="fa fa-fw fa-thumbs-up"></i> Order development and support</a></li>
+<li>
+<a target="_blank" tabindex="-1" href="http://yupe.ru/contacts?from=panel"><i class="fa fa-fw fa-warning"></i> Report a bug</a></li>
+<li>
+<a tabindex="-1" href="/backend/help"><i class="fa fa-fw fa-question-circle"></i> About Yupe!</a></li>
+</ul>
+</li>
+<li>
+<a href="http://578456.cookerin.web.hosting-test.net"><i class='fa fa-fw fa-home'></i>
+Go home</a></li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class='fa fa-fw fa-user'></i>
+<span class="label label-info">Ivan Molodec</span> <span class="caret"></span></a><ul id="yw12" class="dropdown-menu">
+<li>
+<a tabindex="-1" href="/backend/user/user/update/1"><i class="fa fa-fw fa-cog"></i> Profile</a></li>
+<li>
+<a tabindex="-1" href="/logout"><i class="fa fa-fw fa-power-off"></i> Exit</a></li>
+</ul>
+</li>
+</ul>
+</div></div></nav>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var url = window.location.href;
+        $('.navbar .nav li').removeClass('active');
+        $('.nav a').filter(function () {
+            return this.getAttribute("href") != '#' && this.href == url;
+        }).parents('li').addClass('active');
+    });
+</script>
+";i:1;O:9:"TagsCache":2:{s:12:" * timestamp";d:1424536975.6539089679718017578125;s:7:" * tags";a:3:{i:0;s:4:"yupe";i:1;s:11:"YAdminPanel";i:2;s:16:"installedModules";}}}

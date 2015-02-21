@@ -1,0 +1,795 @@
+2015/02/21 19:12:44 [trace] [system.CModule] Loading "urlManager" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:12:44 [trace] [system.base.CModule] Loading "yupe" module
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LangUrlManager.php (129)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LangUrlManager.php (46)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+2015/02/21 19:12:44 [trace] [system.CModule] Loading "db" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1004)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:12:44 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1004)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:12:44 [trace] [system.db.CDbCommand] Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yupe', :type=1
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:12:44 [trace] [system.CModule] Loading "cache" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:12:44 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=cookerin.mysql.ukraine.com.ua;port=3306;dbname=cookerin_spean:cookerin_spean:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"yupe";s:5:":type";i:1;}" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:12:44 [trace] [system.db.CDbCommand] Query result found in cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:12:44 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LangUrlManager.php (51)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:12:44 [trace] [system.CModule] Loading "debug" application component
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:12:44 [trace] [system.CModule] Loading "log" application component
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2DebugPanel.php (279)
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2DebugPanel.php (111)
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/panels/Yii2LogPanel.php (24)
+2015/02/21 19:12:44 [trace] [system.CModule] Loading "request" application component
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2Debug.php (294)
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2Debug.php (167)
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2Debug.php (115)
+2015/02/21 19:12:44 [trace] [system.CModule] Loading "eventManager" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:12:44 [trace] [system.CModule] Loading "user" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:12:44 [trace] [system.CModule] Loading "session" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:12:44 [trace] [system.CModule] Loading "securityManager" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:12:44 [trace] [system.CModule] Loading "statePersister" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:12:44 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./home/cookerin/cookerino.com/protected/runtime/state.bin" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:12:44 [trace] [system.CModule] Loading "themeManager" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (42)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:12:44 [trace] [system.CModule] Loading "bootstrap" application component
+in /home/cookerin/cookerino.com/themes/site/bootstrap.php (5)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (45)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:12:44 [trace] [system.CModule] Loading "clientScript" application component
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/Booster.php (420)
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/Booster.php (212)
+in /home/cookerin/cookerino.com/themes/site/bootstrap.php (5)
+2015/02/21 19:12:44 [trace] [system.CModule] Loading "assetManager" application component
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/Booster.php (413)
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/packages.php (14)
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/Booster.php (260)
+2015/02/21 19:12:44 [trace] [system.CModule] Loading "viewRenderer" application component
+in /home/cookerin/cookerino.com/protected/controllers/SiteController.php (26)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:12:44 [trace] [system.CModule] Loading "widgetFactory" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/Controller.php (141)
+in /home/cookerin/cookerino.com/themes/site/views/layouts/main.php (35)
+in /home/cookerin/cookerino.com/protected/controllers/SiteController.php (26)
+2015/02/21 19:12:44 [trace] [system.caching.CFileCache] Serving "__tag__loggedIn" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/cookerin/cookerino.com/protected/modules/menu/models/Menu.php (185)
+in /home/cookerin/cookerino.com/protected/modules/menu/widgets/MenuWidget.php (54)
+2015/02/21 19:12:44 [trace] [system.caching.CFileCache] Serving "Menu::top-menu0::user_en" from cache
+in /home/cookerin/cookerino.com/protected/modules/menu/models/Menu.php (185)
+in /home/cookerin/cookerino.com/protected/modules/menu/widgets/MenuWidget.php (54)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/Controller.php (141)
+2015/02/21 19:12:55 [trace] [system.CModule] Loading "urlManager" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:12:55 [trace] [system.base.CModule] Loading "yupe" module
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LangUrlManager.php (129)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LangUrlManager.php (46)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+2015/02/21 19:12:55 [trace] [system.CModule] Loading "db" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1004)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:12:55 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1004)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:12:55 [trace] [system.db.CDbCommand] Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yupe', :type=1
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:12:55 [trace] [system.CModule] Loading "cache" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:12:55 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=cookerin.mysql.ukraine.com.ua;port=3306;dbname=cookerin_spean:cookerin_spean:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"yupe";s:5:":type";i:1;}" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:12:55 [trace] [system.db.CDbCommand] Query result found in cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:12:55 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LangUrlManager.php (51)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:12:55 [trace] [system.CModule] Loading "debug" application component
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:12:55 [trace] [system.CModule] Loading "log" application component
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2DebugPanel.php (279)
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2DebugPanel.php (111)
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/panels/Yii2LogPanel.php (24)
+2015/02/21 19:12:55 [trace] [system.CModule] Loading "request" application component
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2Debug.php (294)
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2Debug.php (167)
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2Debug.php (115)
+2015/02/21 19:12:55 [trace] [system.CModule] Loading "eventManager" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:12:55 [trace] [system.CModule] Loading "user" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:12:55 [trace] [system.CModule] Loading "session" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:12:55 [trace] [system.CModule] Loading "securityManager" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:12:55 [trace] [system.CModule] Loading "statePersister" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:12:55 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./home/cookerin/cookerino.com/protected/runtime/state.bin" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:12:55 [trace] [system.CModule] Loading "themeManager" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (42)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:12:55 [trace] [system.CModule] Loading "bootstrap" application component
+in /home/cookerin/cookerino.com/themes/site/bootstrap.php (5)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (45)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:12:55 [trace] [system.CModule] Loading "clientScript" application component
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/Booster.php (420)
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/Booster.php (212)
+in /home/cookerin/cookerino.com/themes/site/bootstrap.php (5)
+2015/02/21 19:12:55 [trace] [system.CModule] Loading "assetManager" application component
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/Booster.php (413)
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/packages.php (14)
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/Booster.php (260)
+2015/02/21 19:12:55 [trace] [system.CModule] Loading "viewRenderer" application component
+in /home/cookerin/cookerino.com/protected/controllers/SiteController.php (26)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:12:55 [trace] [system.CModule] Loading "widgetFactory" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/Controller.php (141)
+in /home/cookerin/cookerino.com/themes/site/views/layouts/main.php (35)
+in /home/cookerin/cookerino.com/protected/controllers/SiteController.php (26)
+2015/02/21 19:12:55 [trace] [system.caching.CFileCache] Serving "__tag__loggedIn" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/cookerin/cookerino.com/protected/modules/menu/models/Menu.php (185)
+in /home/cookerin/cookerino.com/protected/modules/menu/widgets/MenuWidget.php (54)
+2015/02/21 19:12:55 [trace] [system.caching.CFileCache] Serving "Menu::top-menu0::user_en" from cache
+in /home/cookerin/cookerino.com/protected/modules/menu/models/Menu.php (185)
+in /home/cookerin/cookerino.com/protected/modules/menu/widgets/MenuWidget.php (54)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/Controller.php (141)
+2015/02/21 19:13:59 [trace] [system.CModule] Loading "urlManager" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:13:59 [trace] [system.base.CModule] Loading "yupe" module
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LangUrlManager.php (129)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LangUrlManager.php (46)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+2015/02/21 19:13:59 [trace] [system.CModule] Loading "db" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1004)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:13:59 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1004)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:13:59 [trace] [system.db.CDbCommand] Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yupe', :type=1
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:13:59 [trace] [system.CModule] Loading "cache" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:13:59 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=cookerin.mysql.ukraine.com.ua;port=3306;dbname=cookerin_spean:cookerin_spean:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"yupe";s:5:":type";i:1;}" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:13:59 [trace] [system.db.CDbCommand] Query result found in cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:13:59 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LangUrlManager.php (51)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:13:59 [trace] [system.CModule] Loading "debug" application component
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:13:59 [trace] [system.CModule] Loading "log" application component
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2DebugPanel.php (279)
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2DebugPanel.php (111)
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/panels/Yii2LogPanel.php (24)
+2015/02/21 19:13:59 [trace] [system.CModule] Loading "request" application component
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2Debug.php (294)
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2Debug.php (167)
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2Debug.php (115)
+2015/02/21 19:13:59 [trace] [system.base.CModule] Loading "music" module
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:13:59 [trace] [system.db.CDbCommand] Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='music', :type=1
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/music/MusicModule.php (102)
+2015/02/21 19:13:59 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=cookerin.mysql.ukraine.com.ua;port=3306;dbname=cookerin_spean:cookerin_spean:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:5:"music";s:5:":type";i:1;}" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/music/MusicModule.php (102)
+2015/02/21 19:13:59 [trace] [system.db.CDbCommand] Query result found in cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/music/MusicModule.php (102)
+2015/02/21 19:13:59 [trace] [system.CModule] Loading "eventManager" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:13:59 [trace] [system.CModule] Loading "user" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:13:59 [trace] [system.CModule] Loading "session" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:13:59 [trace] [system.CModule] Loading "securityManager" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:13:59 [trace] [system.CModule] Loading "statePersister" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:13:59 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./home/cookerin/cookerino.com/protected/runtime/state.bin" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:13:59 [trace] [system.CModule] Loading "themeManager" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (42)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:13:59 [trace] [system.CModule] Loading "bootstrap" application component
+in /home/cookerin/cookerino.com/themes/site/bootstrap.php (5)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (45)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:13:59 [trace] [system.CModule] Loading "clientScript" application component
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/Booster.php (420)
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/Booster.php (212)
+in /home/cookerin/cookerino.com/themes/site/bootstrap.php (5)
+2015/02/21 19:13:59 [trace] [system.CModule] Loading "assetManager" application component
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/Booster.php (413)
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/packages.php (14)
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/Booster.php (260)
+2015/02/21 19:13:59 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=cookerin.mysql.ukraine.com.ua;port=3306;dbname=cookerin_spean:cookerin_spean:{{music_track}}" from cache
+in /home/cookerin/cookerino.com/protected/modules/music/controllers/DefaultController.php (6)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:13:59 [trace] [system.CModule] Loading "viewRenderer" application component
+in /home/cookerin/cookerino.com/protected/modules/music/controllers/DefaultController.php (17)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:13:59 [trace] [system.CModule] Loading "messages" application component
+in /home/cookerin/cookerino.com/protected/modules/music/models/TrackSearch.php (83)
+in /home/cookerin/cookerino.com/themes/site/views/music/default/index.php (3)
+in /home/cookerin/cookerino.com/protected/modules/music/controllers/DefaultController.php (17)
+2015/02/21 19:13:59 [trace] [system.CModule] Loading "widgetFactory" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/Controller.php (141)
+in /home/cookerin/cookerino.com/themes/site/views/music/default/index.php (17)
+in /home/cookerin/cookerino.com/protected/modules/music/controllers/DefaultController.php (17)
+2015/02/21 19:13:59 [trace] [system.db.ar.CActiveRecord] TrackSearch.count()
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/widgets/TbListView.php (43)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/Controller.php (141)
+in /home/cookerin/cookerino.com/themes/site/views/music/default/index.php (17)
+2015/02/21 19:13:59 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `yupe_music_track` `t`
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/widgets/TbListView.php (43)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/Controller.php (141)
+in /home/cookerin/cookerino.com/themes/site/views/music/default/index.php (17)
+2015/02/21 19:13:59 [trace] [system.db.ar.CActiveRecord] TrackSearch.findAll()
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/widgets/TbListView.php (43)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/Controller.php (141)
+in /home/cookerin/cookerino.com/themes/site/views/music/default/index.php (17)
+2015/02/21 19:13:59 [trace] [system.db.CDbCommand] Querying SQL: SELECT *, (SELECT COUNT(id) FROM yupe_music_downloads WHERE track_id = t.id) AS downloads_count FROM `yupe_music_track` `t` LIMIT 10
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/widgets/TbListView.php (43)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/Controller.php (141)
+in /home/cookerin/cookerino.com/themes/site/views/music/default/index.php (17)
+2015/02/21 19:13:59 [trace] [system.CModule] Loading "coreMessages" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/Controller.php (141)
+in /home/cookerin/cookerino.com/themes/site/views/music/default/index.php (17)
+in /home/cookerin/cookerino.com/protected/modules/music/controllers/DefaultController.php (17)
+2015/02/21 19:13:59 [trace] [system.db.ar.CActiveRecord] Genre.findAll()
+in /home/cookerin/cookerino.com/protected/modules/music/models/Track.php (24)
+in /home/cookerin/cookerino.com/themes/site/views/music/default/index.php (34)
+in /home/cookerin/cookerino.com/protected/modules/music/controllers/DefaultController.php (17)
+2015/02/21 19:13:59 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=cookerin.mysql.ukraine.com.ua;port=3306;dbname=cookerin_spean:cookerin_spean:{{music_genre}}" from cache
+in /home/cookerin/cookerino.com/protected/modules/music/models/Track.php (24)
+in /home/cookerin/cookerino.com/themes/site/views/music/default/index.php (34)
+in /home/cookerin/cookerino.com/protected/modules/music/controllers/DefaultController.php (17)
+2015/02/21 19:13:59 [trace] [system.db.CDbCommand] Querying SQL: SELECT name_en FROM `yupe_music_genre` `t`
+in /home/cookerin/cookerino.com/protected/modules/music/models/Track.php (24)
+in /home/cookerin/cookerino.com/themes/site/views/music/default/index.php (34)
+in /home/cookerin/cookerino.com/protected/modules/music/controllers/DefaultController.php (17)
+2015/02/21 19:13:59 [trace] [system.caching.CFileCache] Serving "__tag__loggedIn" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/cookerin/cookerino.com/protected/modules/menu/models/Menu.php (185)
+in /home/cookerin/cookerino.com/protected/modules/menu/widgets/MenuWidget.php (54)
+2015/02/21 19:13:59 [trace] [system.caching.CFileCache] Serving "Menu::top-menu0::user_en" from cache
+in /home/cookerin/cookerino.com/protected/modules/menu/models/Menu.php (185)
+in /home/cookerin/cookerino.com/protected/modules/menu/widgets/MenuWidget.php (54)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/Controller.php (141)
+2015/02/21 19:14:16 [trace] [system.CModule] Loading "urlManager" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:16 [trace] [system.base.CModule] Loading "yupe" module
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LangUrlManager.php (129)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LangUrlManager.php (46)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+2015/02/21 19:14:16 [trace] [system.CModule] Loading "db" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1004)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:14:16 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1004)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:14:16 [trace] [system.db.CDbCommand] Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yupe', :type=1
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:14:16 [trace] [system.CModule] Loading "cache" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:14:16 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=cookerin.mysql.ukraine.com.ua;port=3306;dbname=cookerin_spean:cookerin_spean:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"yupe";s:5:":type";i:1;}" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:14:16 [trace] [system.db.CDbCommand] Query result found in cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:14:16 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LangUrlManager.php (51)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:16 [trace] [system.CModule] Loading "debug" application component
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:16 [trace] [system.CModule] Loading "log" application component
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2DebugPanel.php (279)
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2DebugPanel.php (111)
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/panels/Yii2LogPanel.php (24)
+2015/02/21 19:14:16 [trace] [system.CModule] Loading "request" application component
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2Debug.php (294)
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2Debug.php (167)
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2Debug.php (115)
+2015/02/21 19:14:16 [trace] [system.base.CModule] Loading "user" module
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:16 [trace] [system.db.CDbCommand] Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='user', :type=1
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/user/UserModule.php (348)
+2015/02/21 19:14:16 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=cookerin.mysql.ukraine.com.ua;port=3306;dbname=cookerin_spean:cookerin_spean:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"user";s:5:":type";i:1;}" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/user/UserModule.php (348)
+2015/02/21 19:14:16 [trace] [system.db.CDbCommand] Query result found in cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/user/UserModule.php (348)
+2015/02/21 19:14:16 [trace] [system.CModule] Loading "eventManager" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:16 [trace] [system.CModule] Loading "user" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:17 [trace] [system.CModule] Loading "session" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:17 [trace] [system.CModule] Loading "securityManager" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:17 [trace] [system.CModule] Loading "statePersister" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:17 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./home/cookerin/cookerino.com/protected/runtime/state.bin" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:17 [trace] [system.CModule] Loading "themeManager" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (42)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:17 [trace] [system.CModule] Loading "bootstrap" application component
+in /home/cookerin/cookerino.com/themes/site/bootstrap.php (5)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (45)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:17 [trace] [system.CModule] Loading "clientScript" application component
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/Booster.php (420)
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/Booster.php (212)
+in /home/cookerin/cookerino.com/themes/site/bootstrap.php (5)
+2015/02/21 19:14:17 [trace] [system.CModule] Loading "assetManager" application component
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/Booster.php (413)
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/packages.php (14)
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/Booster.php (260)
+2015/02/21 19:14:17 [trace] [system.web.filters.CFilterChain] Running filter AccountController.filteraccessControl()
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:17 [trace] [system.CModule] Loading "authenticationManager" application component
+in /home/cookerin/cookerino.com/protected/modules/user/controllers/account/LoginAction.php (25)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:17 [trace] [system.CModule] Loading "viewRenderer" application component
+in /home/cookerin/cookerino.com/protected/modules/user/controllers/account/LoginAction.php (69)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:17 [trace] [system.CModule] Loading "messages" application component
+in /home/cookerin/cookerino.com/themes/site/views/user/account/login.php (2)
+in /home/cookerin/cookerino.com/protected/modules/user/controllers/account/LoginAction.php (69)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:17 [trace] [system.CModule] Loading "widgetFactory" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/Controller.php (141)
+in /home/cookerin/cookerino.com/themes/site/views/user/account/login.php (6)
+in /home/cookerin/cookerino.com/protected/modules/user/controllers/account/LoginAction.php (69)
+2015/02/21 19:14:17 [trace] [system.caching.CFileCache] Serving "__tag__loggedIn" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/cookerin/cookerino.com/protected/modules/menu/models/Menu.php (185)
+in /home/cookerin/cookerino.com/protected/modules/menu/widgets/MenuWidget.php (54)
+2015/02/21 19:14:17 [trace] [system.caching.CFileCache] Serving "Menu::top-menu0::user_en" from cache
+in /home/cookerin/cookerino.com/protected/modules/menu/models/Menu.php (185)
+in /home/cookerin/cookerino.com/protected/modules/menu/widgets/MenuWidget.php (54)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/Controller.php (141)
+2015/02/21 19:14:17 [trace] [system.CModule] Loading "coreMessages" application component
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/widgets/TbBreadcrumbs.php (49)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/Controller.php (141)
+in /home/cookerin/cookerino.com/themes/site/views/layouts/main.php (47)
+2015/02/21 19:14:18 [trace] [system.CModule] Loading "urlManager" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:18 [trace] [system.base.CModule] Loading "yupe" module
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LangUrlManager.php (129)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LangUrlManager.php (46)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+2015/02/21 19:14:18 [trace] [system.CModule] Loading "db" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1004)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:14:18 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1004)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:14:18 [trace] [system.db.CDbCommand] Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yupe', :type=1
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:14:18 [trace] [system.CModule] Loading "cache" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:14:18 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=cookerin.mysql.ukraine.com.ua;port=3306;dbname=cookerin_spean:cookerin_spean:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"yupe";s:5:":type";i:1;}" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:14:18 [trace] [system.db.CDbCommand] Query result found in cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:14:18 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LangUrlManager.php (51)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:18 [trace] [system.CModule] Loading "debug" application component
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:18 [trace] [system.CModule] Loading "log" application component
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2DebugPanel.php (279)
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2DebugPanel.php (111)
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/panels/Yii2LogPanel.php (24)
+2015/02/21 19:14:18 [trace] [system.CModule] Loading "request" application component
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2Debug.php (294)
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2Debug.php (167)
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2Debug.php (115)
+2015/02/21 19:14:18 [trace] [system.base.CModule] Loading "music" module
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:18 [trace] [system.db.CDbCommand] Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='music', :type=1
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/music/MusicModule.php (102)
+2015/02/21 19:14:18 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=cookerin.mysql.ukraine.com.ua;port=3306;dbname=cookerin_spean:cookerin_spean:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:5:"music";s:5:":type";i:1;}" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/music/MusicModule.php (102)
+2015/02/21 19:14:18 [trace] [system.db.CDbCommand] Query result found in cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/music/MusicModule.php (102)
+2015/02/21 19:14:18 [trace] [system.CModule] Loading "eventManager" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:18 [trace] [system.CModule] Loading "user" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:18 [trace] [system.CModule] Loading "session" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:18 [trace] [system.CModule] Loading "securityManager" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:18 [trace] [system.CModule] Loading "statePersister" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:18 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./home/cookerin/cookerino.com/protected/runtime/state.bin" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:18 [trace] [system.CModule] Loading "themeManager" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (42)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:18 [trace] [system.CModule] Loading "bootstrap" application component
+in /home/cookerin/cookerino.com/themes/site/bootstrap.php (5)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (45)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:18 [trace] [system.CModule] Loading "clientScript" application component
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/Booster.php (420)
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/Booster.php (212)
+in /home/cookerin/cookerino.com/themes/site/bootstrap.php (5)
+2015/02/21 19:14:18 [trace] [system.CModule] Loading "assetManager" application component
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/Booster.php (413)
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/packages.php (14)
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/Booster.php (260)
+2015/02/21 19:14:18 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=cookerin.mysql.ukraine.com.ua;port=3306;dbname=cookerin_spean:cookerin_spean:{{music_track}}" from cache
+in /home/cookerin/cookerino.com/protected/modules/music/controllers/DefaultController.php (6)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:18 [trace] [system.CModule] Loading "viewRenderer" application component
+in /home/cookerin/cookerino.com/protected/modules/music/controllers/DefaultController.php (17)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:18 [trace] [system.CModule] Loading "messages" application component
+in /home/cookerin/cookerino.com/protected/modules/music/models/TrackSearch.php (83)
+in /home/cookerin/cookerino.com/themes/site/views/music/default/index.php (3)
+in /home/cookerin/cookerino.com/protected/modules/music/controllers/DefaultController.php (17)
+2015/02/21 19:14:18 [trace] [system.CModule] Loading "widgetFactory" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/Controller.php (141)
+in /home/cookerin/cookerino.com/themes/site/views/music/default/index.php (17)
+in /home/cookerin/cookerino.com/protected/modules/music/controllers/DefaultController.php (17)
+2015/02/21 19:14:18 [trace] [system.db.ar.CActiveRecord] TrackSearch.count()
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/widgets/TbListView.php (43)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/Controller.php (141)
+in /home/cookerin/cookerino.com/themes/site/views/music/default/index.php (17)
+2015/02/21 19:14:18 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `yupe_music_track` `t`
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/widgets/TbListView.php (43)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/Controller.php (141)
+in /home/cookerin/cookerino.com/themes/site/views/music/default/index.php (17)
+2015/02/21 19:14:18 [trace] [system.db.ar.CActiveRecord] TrackSearch.findAll()
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/widgets/TbListView.php (43)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/Controller.php (141)
+in /home/cookerin/cookerino.com/themes/site/views/music/default/index.php (17)
+2015/02/21 19:14:18 [trace] [system.db.CDbCommand] Querying SQL: SELECT *, (SELECT COUNT(id) FROM yupe_music_downloads WHERE track_id = t.id) AS downloads_count FROM `yupe_music_track` `t` LIMIT 10
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/widgets/TbListView.php (43)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/Controller.php (141)
+in /home/cookerin/cookerino.com/themes/site/views/music/default/index.php (17)
+2015/02/21 19:14:18 [trace] [system.CModule] Loading "coreMessages" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/Controller.php (141)
+in /home/cookerin/cookerino.com/themes/site/views/music/default/index.php (17)
+in /home/cookerin/cookerino.com/protected/modules/music/controllers/DefaultController.php (17)
+2015/02/21 19:14:18 [trace] [system.db.ar.CActiveRecord] Genre.findAll()
+in /home/cookerin/cookerino.com/protected/modules/music/models/Track.php (24)
+in /home/cookerin/cookerino.com/themes/site/views/music/default/index.php (34)
+in /home/cookerin/cookerino.com/protected/modules/music/controllers/DefaultController.php (17)
+2015/02/21 19:14:18 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=cookerin.mysql.ukraine.com.ua;port=3306;dbname=cookerin_spean:cookerin_spean:{{music_genre}}" from cache
+in /home/cookerin/cookerino.com/protected/modules/music/models/Track.php (24)
+in /home/cookerin/cookerino.com/themes/site/views/music/default/index.php (34)
+in /home/cookerin/cookerino.com/protected/modules/music/controllers/DefaultController.php (17)
+2015/02/21 19:14:18 [trace] [system.db.CDbCommand] Querying SQL: SELECT name_en FROM `yupe_music_genre` `t`
+in /home/cookerin/cookerino.com/protected/modules/music/models/Track.php (24)
+in /home/cookerin/cookerino.com/themes/site/views/music/default/index.php (34)
+in /home/cookerin/cookerino.com/protected/modules/music/controllers/DefaultController.php (17)
+2015/02/21 19:14:18 [trace] [system.caching.CFileCache] Serving "__tag__loggedIn" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/cookerin/cookerino.com/protected/modules/menu/models/Menu.php (185)
+in /home/cookerin/cookerino.com/protected/modules/menu/widgets/MenuWidget.php (54)
+2015/02/21 19:14:18 [trace] [system.caching.CFileCache] Serving "Menu::top-menu0::user_en" from cache
+in /home/cookerin/cookerino.com/protected/modules/menu/models/Menu.php (185)
+in /home/cookerin/cookerino.com/protected/modules/menu/widgets/MenuWidget.php (54)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/Controller.php (141)
+2015/02/21 19:14:25 [trace] [system.CModule] Loading "urlManager" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:25 [trace] [system.base.CModule] Loading "yupe" module
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LangUrlManager.php (129)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LangUrlManager.php (46)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+2015/02/21 19:14:25 [trace] [system.CModule] Loading "db" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1004)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:14:26 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1004)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:14:26 [trace] [system.db.CDbCommand] Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yupe', :type=1
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:14:26 [trace] [system.CModule] Loading "cache" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:14:26 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=cookerin.mysql.ukraine.com.ua;port=3306;dbname=cookerin_spean:cookerin_spean:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"yupe";s:5:":type";i:1;}" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:14:26 [trace] [system.db.CDbCommand] Query result found in cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/yupe/YupeModule.php (648)
+2015/02/21 19:14:26 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LangUrlManager.php (51)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:26 [trace] [system.CModule] Loading "debug" application component
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:26 [trace] [system.CModule] Loading "log" application component
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2DebugPanel.php (279)
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2DebugPanel.php (111)
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/panels/Yii2LogPanel.php (24)
+2015/02/21 19:14:26 [trace] [system.CModule] Loading "request" application component
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2Debug.php (294)
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2Debug.php (167)
+in /home/cookerin/cookerino.com/vendor/zhuravljov/yii2-debug/Yii2Debug.php (115)
+2015/02/21 19:14:26 [trace] [system.base.CModule] Loading "user" module
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:26 [trace] [system.db.CDbCommand] Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='user', :type=1
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/user/UserModule.php (348)
+2015/02/21 19:14:26 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=cookerin.mysql.ukraine.com.ua;port=3306;dbname=cookerin_spean:cookerin_spean:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"user";s:5:":type";i:1;}" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/user/UserModule.php (348)
+2015/02/21 19:14:26 [trace] [system.db.CDbCommand] Query result found in cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (1015)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/WebModule.php (987)
+in /home/cookerin/cookerino.com/protected/modules/user/UserModule.php (348)
+2015/02/21 19:14:26 [trace] [system.CModule] Loading "eventManager" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:26 [trace] [system.CModule] Loading "user" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:26 [trace] [system.CModule] Loading "session" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:26 [trace] [system.CModule] Loading "securityManager" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:26 [trace] [system.CModule] Loading "statePersister" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:26 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./home/cookerin/cookerino.com/protected/runtime/state.bin" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (32)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:26 [trace] [system.CModule] Loading "themeManager" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (42)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:26 [trace] [system.CModule] Loading "bootstrap" application component
+in /home/cookerin/cookerino.com/themes/site/bootstrap.php (5)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/FrontController.php (45)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:26 [trace] [system.CModule] Loading "clientScript" application component
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/Booster.php (420)
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/Booster.php (212)
+in /home/cookerin/cookerino.com/themes/site/bootstrap.php (5)
+2015/02/21 19:14:26 [trace] [system.CModule] Loading "assetManager" application component
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/Booster.php (413)
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/packages.php (14)
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/components/Booster.php (260)
+2015/02/21 19:14:26 [trace] [system.web.filters.CFilterChain] Running filter AccountController.filteraccessControl()
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:26 [trace] [system.CModule] Loading "viewRenderer" application component
+in /home/cookerin/cookerino.com/protected/modules/user/controllers/account/RegistrationAction.php (50)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:26 [trace] [system.CModule] Loading "messages" application component
+in /home/cookerin/cookerino.com/themes/site/views/user/account/registration.php (2)
+in /home/cookerin/cookerino.com/protected/modules/user/controllers/account/RegistrationAction.php (50)
+in /home/cookerin/cookerino.com/www/index.php (35)
+2015/02/21 19:14:26 [trace] [system.CModule] Loading "widgetFactory" application component
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/Controller.php (141)
+in /home/cookerin/cookerino.com/themes/site/views/user/account/registration.php (6)
+in /home/cookerin/cookerino.com/protected/modules/user/controllers/account/RegistrationAction.php (50)
+2015/02/21 19:14:26 [trace] [system.caching.CFileCache] Serving "__tag__loggedIn" from cache
+in /home/cookerin/cookerino.com/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/cookerin/cookerino.com/protected/modules/menu/models/Menu.php (185)
+in /home/cookerin/cookerino.com/protected/modules/menu/widgets/MenuWidget.php (54)
+2015/02/21 19:14:26 [trace] [system.caching.CFileCache] Serving "Menu::top-menu0::user_en" from cache
+in /home/cookerin/cookerino.com/protected/modules/menu/models/Menu.php (185)
+in /home/cookerin/cookerino.com/protected/modules/menu/widgets/MenuWidget.php (54)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/Controller.php (141)
+2015/02/21 19:14:26 [trace] [system.CModule] Loading "coreMessages" application component
+in /home/cookerin/cookerino.com/vendor/clevertech/yii-booster/src/widgets/TbBreadcrumbs.php (49)
+in /home/cookerin/cookerino.com/protected/modules/yupe/components/controllers/Controller.php (141)
+in /home/cookerin/cookerino.com/themes/site/views/layouts/main.php (47)

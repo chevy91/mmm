@@ -1,0 +1,3 @@
+<h1>Faq</h1>
+
+FAQ will be here...
